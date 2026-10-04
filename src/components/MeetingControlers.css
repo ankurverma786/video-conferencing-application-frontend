@@ -1,0 +1,32 @@
+.controls {
+  display: flex;
+  gap: 14px;
+}
+
+.control-btn,
+.leave-btn {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  background: #292c33;
+  color: white;
+}
+
+.control-btn:hover {
+  background: #3a3e47;
+}
+
+.control-btn.active {
+  background: #ef4444;
+}
+
+.leave-btn {
+  background: #dc2626;
+}
+
+.leave-btn:hover {
+  background: #b91c1c;
+}

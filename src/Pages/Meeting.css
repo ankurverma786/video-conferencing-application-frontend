@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f1115;
+}
+
+.meeting-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #0f1115;
+  color: white;
+  overflow: hidden;
+}
+
+.meeting-header {
+  height: 64px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #181a20;
+  border-bottom: 1px solid #292c33;
+}
+
+.meeting-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.meeting-header span {
+  color: #aeb4c0;
+  font-size: 14px;
+}
+
+.meeting-main {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.video-section {
+  flex: 1;
+  padding: 18px;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.chat-section {
+  width: 340px;
+  background: #181a20;
+  border-left: 1px solid #292c33;
+  padding: 16px;
+}
+
+.controls-section {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #181a20;
+  border-top: 1px solid #292c33;
+}
+
